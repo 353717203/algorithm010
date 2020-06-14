@@ -1,13 +1,13 @@
 学习笔记
 ====
 ## 学习内容
-* 数组，链表，跳表（元素需有序）
+### 数组，链表，跳表（元素需有序）
  * 链表时间复杂度：
-  * prepend O(1)
-  * append O(1)
-  * lookup O(n)
-  * insert O(1)
-  * delete O(1)
+   * prepend O(1)
+   * append O(1)
+   * lookup O(n)
+   * insert O(1)
+   * delete O(1)
  * 数组时间复杂度：
   * prepend O(1)
   * append O(1)
