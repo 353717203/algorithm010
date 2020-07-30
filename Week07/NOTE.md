@@ -38,21 +38,4 @@
   * 3、对于整个算法而言，总时间复杂度就是遍历board每个单词的时间复杂度乘上回溯算法的复杂度，为
  
  ### 双向BFS模板
-  left, right = [beginWord], [endWord]
-        alph_list = list('abcdefghijklmnopqrstuvwxyz')
-        step = 1
-        while left:
-            mid = set()
-            for word in left:
-                for i in range(len(beginWord)):
-                    for c in alph_list:
-                        new = word[:i] + c + word[i+1:]
-                        if new in right:
-                            return step + 1
-                        if new in wordList:
-                            mid.add(new)
-                            wordList.remove(new)
-            left = mid
-            step += 1
-            if len(left) > len(right):
-                left, right = right, left
+  * https://github.com/353717203/algorithm010/blob/master/Week07/127.%E5%8D%95%E8%AF%8D%E6%8E%A5%E9%BE%99.py
